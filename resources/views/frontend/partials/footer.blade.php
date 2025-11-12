@@ -50,9 +50,9 @@
                 </div>
                 <div class="footer-visitor-widget d-flex align-items-center gap-3">
                     <div class="visitor-label-box d-flex align-items-center gap-2 px-3 py-2">
-    <span class="visitor-label-icon d-flex align-items-center justify-content-center me-1">
-      <i class="bi bi-graph-up"></i>
-    </span>
+                        <span class="visitor-label-icon d-flex align-items-center justify-content-center me-1">
+                          <i class="bi bi-graph-up"></i>
+                        </span>
                         <span class="visitor-label-text">Visitor Counter</span>
                     </div>
                     <span class="visitor-counter-modern-glass">1,20,391</span>
@@ -63,7 +63,7 @@
         <div class="row mt-4">
             <div class="col text-center text-white small pt-3 border-top border-secondary">
                 &copy; 2025 Pub Kamrup College. All rights reserved. | Powered by
-                <a href="#" style="color:#ffc107;font-weight:600;">Luitlab Solutions</a>
+                <a href="https://luitlab.com/" target="_blank" style="color:#ffc107;font-weight:600;">Luitlab Solutions</a>
             </div>
         </div>
     </div>

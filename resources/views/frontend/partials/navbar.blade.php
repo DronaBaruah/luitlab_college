@@ -9,13 +9,14 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+                    <a class="nav-link" href="{{route('home')}}"><i class="fas fa-home"></i> Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                         About Us
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{route('about')}}">About</a></li>
                         <li><a class="dropdown-item" href="#history">History</a></li>
                         <li><a class="dropdown-item" href="#vision">Vision & Mission</a></li>
                         <li><a class="dropdown-item" href="#infrastructure">Infrastructure</a></li>

@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-5 col-12 text-center text-md-start mb-3 mb-md-0">
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                    <img src="{{ asset('images/college-logo.png') }}" alt="Pub Kamrup College Logo" class="college-logo" style="max-width: 100px;">
+                    <img src="https://www.pubkamrupcollege.co.in/images/pub2.png" alt="Pub Kamrup College Logo" class="college-logo" style="max-width: 100px;">
                     <div class="ms-3">
                         <h1 class="mb-0" style="font-size: 24px; color: var(--accent-red);">পূব কামৰূপ মহাবিদ্যালয়</h1>
                         <h2 class="mb-0" style="font-size: 20px; color: var(--primary-blue);">PUB KAMRUP COLLEGE</h2>
@@ -15,7 +15,7 @@
             </div>
 
             <div class="col-lg-3 col-md-2 col-12 text-center mb-3 mb-md-0">
-                <img src="{{ asset('images/azadi-logo.png') }}" alt="Azadi Ka Amrit Mahotsav" class="azadi-logo">
+                <img src="https://www.pubkamrupcollege.co.in/amrit.jpeg" alt="Azadi Ka Amrit Mahotsav" class="azadi-logo">
             </div>
 
             <div class="col-lg-5 col-md-5 col-12">
