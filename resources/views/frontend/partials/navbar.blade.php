@@ -18,7 +18,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{route('about')}}">About</a></li>
                         <li><a class="dropdown-item" href="#history">History</a></li>
-                        <li><a class="dropdown-item" href="#vision">Vision & Mission</a></li>
+                        <li><a class="dropdown-item" href="{{route('vision-and-mission')}}">Vision & Mission</a></li>
                         <li><a class="dropdown-item" href="#infrastructure">Infrastructure</a></li>
                     </ul>
                 </li>
@@ -36,8 +36,10 @@
                         Academic
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#programs">Programs</a></li>
+                        <li><a class="dropdown-item" href="{{route('admission')}}">Admission</a></li>
                         <li><a class="dropdown-item" href="#calendar">Academic Calendar</a></li>
+                        <li><a class="dropdown-item" href="{{route('instructions')}}">General Instructions</a></li>
+                        <li><a class="dropdown-item" href="{{route('fee-details')}}">Fee Details</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
