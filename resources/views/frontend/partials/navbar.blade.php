@@ -19,7 +19,8 @@
                         <li><a class="dropdown-item" href="{{route('about')}}">About</a></li>
                         <li><a class="dropdown-item" href="#history">History</a></li>
                         <li><a class="dropdown-item" href="{{route('vision-and-mission')}}">Vision & Mission</a></li>
-                        <li><a class="dropdown-item" href="#infrastructure">Infrastructure</a></li>
+                        <li><a class="dropdown-item" href="{{ route('contact')}}">Contact Us</a></li>
+                        <li><a class="dropdown-item" href="{{ route('facilities')}}">Facilities</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -59,8 +60,12 @@
                         Courses
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#ug">Under Graduate</a></li>
-                        <li><a class="dropdown-item" href="#pg">Post Graduate</a></li>
+                        <li><a class="dropdown-item" href="{{ route('hs-course') }}">Higher Secondary</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ug-course') }}">Under Graduate</a></li>
+                        <li><a class="dropdown-item" href="{{ route('pg-course') }}">Post Graduate</a></li>
+                        <li><a class="dropdown-item" href="{{ route('certificate-course') }}">Certificate Course</a></li>
+                        <li><a class="dropdown-item" href="{{ route('self-finance-course') }}">Self Finance Course</a></li>
+                        <li><a class="dropdown-item" href="{{ route('kkhsou') }}">KKHSOU</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
