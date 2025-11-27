@@ -53,3 +53,35 @@ Route::get('/kkhsou', function () {
 Route::get('/facilities', function () {
     return view('frontend/pages/about/facilities');
 })->name('facilities');
+
+Route::get('/calender', function () {
+    return view('frontend/pages/academic/academic_calender');
+})->name('calender');
+
+Route::get('/scholarships_and_awards', function () {
+    return view('frontend/pages/academic/scholarships_and_awards');
+})->name('scholarships');
+
+Route::get('/rules_and_regulations', function () {
+    return view('frontend/pages/academic/rules_regulations');
+})->name('rules-and-regulations');
+
+Route::get('/examinations', function () {
+    return view('frontend/pages/academic/examination');
+})->name('examinations');
+
+Route::get('/syllabus', function () {
+    return view('frontend/pages/academic/syllabus');
+})->name('syllabus');
+
+Route::get('/affiliation', function () {
+    return view('frontend/pages/academic/affiliation');
+})->name('affiliation');
+
+Route::get('/research_and_innovation', function () {
+    return view('frontend/pages/academic/research_and_innovation');
+})->name('research_and_innovation');
+
+Route::get('/results', function () {
+    return view('frontend/pages/academic/results');
+})->name('results');
