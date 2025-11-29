@@ -51,15 +51,15 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#departments">Departments</a>
+                    <a class="nav-link" href="{{route('departments')}}">Departments</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                         Staff
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#teaching">Teaching Staff</a></li>
-                        <li><a class="dropdown-item" href="#non-teaching">Non-Teaching Staff</a></li>
+                        <li><a class="dropdown-item" href="{{ route('teaching-staff') }}">Teaching Staff</a></li>
+                        <li><a class="dropdown-item" href="{{ route('non-teaching-staff') }}">Non-Teaching Staff</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

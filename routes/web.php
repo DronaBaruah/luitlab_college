@@ -85,3 +85,75 @@ Route::get('/research_and_innovation', function () {
 Route::get('/results', function () {
     return view('frontend/pages/academic/results');
 })->name('results');
+
+Route::get('/departments', function () {
+    return view('frontend/pages/departments/department');
+})->name('departments');
+
+Route::get('/department/{slug}', function ($slug) {
+    $departments = [
+        'assamese' => 'Assamese',
+        'botany' => 'Botany',
+        'biophysics' => 'Bio-Physics',
+        'bba' => 'BBA',
+        'bca' => 'BCA',
+        'chemistry' => 'Chemistry',
+        'computer-science' => 'Computer Science',
+        'economics' => 'Economics',
+        'education' => 'Education',
+        'software-development' => 'Software Development and System Administration',
+        'english' => 'English',
+        'geography' => 'Geography',
+        'history' => 'History',
+        'mathematics' => 'Mathematics',
+        'philosophy' => 'Philosophy',
+        'physics' => 'Physics',
+        'political-science' => 'Political Science',
+        'statistics' => 'Statistics',
+        'zoology' => 'Zoology',
+        'food-processing' => 'Food Processing and Quality Management',
+    ];
+    
+    if (!isset($departments[$slug])) {
+        abort(404, 'Department not found');
+    }
+    
+    return view('frontend/pages/departments/show', [
+        'slug' => $slug,
+        'department' => $departments[$slug]
+    ]);
+})->name('department.show');
+
+Route::get('/teaching-staff', function () {
+    return view('frontend/pages/staff/teaching_staff');
+})->name('teaching-staff');
+
+Route::get('/staff/{id}', function ($id) {
+    // You can fetch staff details from database or use static data
+    $staffMembers = [
+        1 => [
+            'name' => 'DR. BARNALI DEKA',
+            'designation' => 'ASSISTANT PROFESSOR',
+            'email' => 'barnali@pubkamrup.edu.in',
+            'phone' => '+91 XXXXXXXXXX',
+            'image' => 'online/attendence/upload/profile/1661410877Barnali Photo.jpeg',
+            'department' => 'Assamese',
+            'qualification' => 'PhD',
+            'specialization' => 'Your specialization here',
+        ],
+        // Add more staff members here
+    ];
+    
+    if (!isset($staffMembers[$id])) {
+        abort(404, 'Staff member not found');
+    }
+    
+    return view('frontend/pages/staff/show', [
+        'staff' => $staffMembers[$id],
+        'id' => $id
+    ]);
+})->name('staff.show');
+
+Route::get('/non-teaching-staff', function () {
+    return view('frontend/pages/staff/non_teaching_staff');
+})->name('non-teaching-staff');
