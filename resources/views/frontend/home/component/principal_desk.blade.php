@@ -58,7 +58,7 @@
                     </div>
                     <!-- Principal's Photo -->
                     <div class="principal-photo-wrapper text-center mb-3 mt-2">
-                        <img src="https://www.pubkamrupcollege.co.in/upload/principal/1647252029.jpeg"
+                        <img src="https://luitlab.com/_next/image?url=%2FLuitlab_logo_final.png&w=128&q=75"
                             alt="Principal Dr. ----- Sarma"
                             class="principal-photo img-fluid rounded-3 shadow">
                     </div>

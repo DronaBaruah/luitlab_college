@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-5 col-12 text-center text-md-start mb-3 mb-md-0">
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                    <img src="https://www.pubkamrupcollege.co.in/images/pub2.png" alt="Demo College Logo" class="college-logo" style="max-width: 100px;">
+                    <img src="https://luitlab.com/_next/image?url=%2FLuitlab_logo_final.png&w=128&q=75" alt="Demo College Logo" class="college-logo" style="max-width: 100px;">
                     <div class="ms-3">
                         <h1 class="mb-0" style="font-size: 24px; color: var(--accent-red);"> মহাবিদ্যালয়</h1>
                         <h2 class="mb-0" style="font-size: 20px; color: var(--primary-blue);">Demo College</h2>
