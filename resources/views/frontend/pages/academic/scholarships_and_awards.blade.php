@@ -10,7 +10,7 @@
     <hr>
     <h3>The bonafide students of the College are entitled to apply for the following scholarships :</h3>
     <ol type="i" style="line-height:2.2;font-size:18px;text-align:justify;letter-spacing:1px;">
-        <li>Pub Kamrup College Merit Scholarship</li>
+        <li>Demo College Merit Scholarship</li>
         <li>INSPIRE Fellowship (http://www.inspire-dst.gov.in/fellowship.html)</li>
         <li>Combined Merit Scholarship (http://www.dheassam.gov.in/scholarship.asp)</li>
         <li>Central Sector Scheme (http://www.cbse.nic.in/Scholarship/Webpages/
@@ -28,7 +28,7 @@
     <h2>Awards offered by the College </h2>
     <hr>
     <ol type="i" style="line-height:2.2;font-size:18px;text-align:justify;letter-spacing:1px;">
-        <li><strong>PKCTU Merit Award : </strong>‘Pub Kamrup College Teachers’ Unit Merit Award’ is
+        <li><strong>PKCTU Merit Award : </strong>‘Demo College Teachers’ Unit Merit Award’ is
             conferred annually on the student securing highest marks among the HS Final Examination candidates
             from both the streams- Arts and Science, and on the student securing highest marks among the
             candidates of the TDC Final Examination from this College.<br><br></li>

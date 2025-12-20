@@ -4,11 +4,11 @@
             <!-- Brand & Address -->
             <div class="col-lg-4 col-md-6">
                 <div class="footer-brand mb-4">
-                    <h5 class="fw-bold mb-2 text-white">Pub Kamrup College</h5>
-                    <p class="footer-link-light mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Baihata Chariali, Kamrup, Assam 781381</p>
+                    <h5 class="fw-bold mb-2 text-white">Demo College</h5>
+                    <p class="footer-link-light mb-1"><i class="bi bi-geo-alt-fill me-2"></i>-----, Kamrup, Assam 781381</p>
                     <a href="mailto:principal@pubkamrupcollege.org" class="footer-link-light d-block mb-1"><i class="bi bi-envelope-fill me-2"></i>principal@pubkamrupcollege.org</a>
-                    <p class="footer-link-light mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 8638375658</p>
-                    <p class="footer-link-light mb-2"><i class="bi bi-telephone-fill me-2"></i>+91 9435409567</p>
+                    <p class="footer-link-light mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 XXXXXXXXXX</p>
+                    <p class="footer-link-light mb-2"><i class="bi bi-telephone-fill me-2"></i>+91 XXXXXXXXXX</p>
                 </div>
                 <div class="footer-social mt-3">
                     <a href="#" class="footer-social-link"><i class="bi bi-facebook"></i></a>
@@ -51,7 +51,7 @@
                 <div class="footer-visitor-widget d-flex align-items-center gap-3">
                     <div class="visitor-label-box d-flex align-items-center gap-2 px-3 py-2">
                         <span class="visitor-label-icon d-flex align-items-center justify-content-center me-1">
-                          <i class="bi bi-graph-up"></i>
+                            <i class="bi bi-graph-up"></i>
                         </span>
                         <span class="visitor-label-text">Visitor Counter</span>
                     </div>
@@ -62,7 +62,7 @@
         <!-- Credits -->
         <div class="row mt-4">
             <div class="col text-center text-white small pt-3 border-top border-secondary">
-                &copy; 2025 Pub Kamrup College. All rights reserved. | Powered by
+                &copy; 2025 Demo College. All rights reserved. | Powered by
                 <a href="https://luitlab.com/" target="_blank" style="color:#ffc107;font-weight:600;">Luitlab Solutions</a>
             </div>
         </div>
@@ -80,12 +80,14 @@
         padding-bottom: 2rem;
         font-size: 1.08rem;
     }
+
     .footer-logo {
         width: 54px;
         border-radius: 10px;
         background: #fff;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.14);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
     }
+
     .footer-title {
         color: #ffc107;
         font-size: 1.17rem;
@@ -94,13 +96,16 @@
         margin-bottom: 18px;
         margin-top: 15px;
     }
+
     .footer-links {
         list-style-type: none;
         padding-left: 0;
     }
+
     .footer-links li {
         margin-bottom: 9px;
     }
+
     .footer-links a {
         color: #f8fafc;
         text-decoration: none;
@@ -108,16 +113,19 @@
         font-size: 1rem;
         font-weight: 500;
     }
+
     .footer-links a:hover {
         color: #ffc107;
         text-decoration: underline;
     }
+
     .footer-link-light {
         color: #fff !important;
         font-weight: 400;
         letter-spacing: 0.02em;
         text-shadow: 0 1px 3px #18202a33;
     }
+
     .footer-social-link {
         display: inline-block;
         color: #fff;
@@ -130,38 +138,41 @@
         margin-right: 10px;
         font-size: 1.24rem;
         transition: all .3s;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
     }
+
     .footer-social-link:hover {
         background: #ffc107;
         color: #17294d;
     }
+
     .footer-visitor-widget {
         margin-top: 8px;
         margin-bottom: 8px;
     }
 
     .visitor-label-box {
-        background: rgba(34,54,89,0.22);
+        background: rgba(34, 54, 89, 0.22);
         color: #fff;
         border-radius: 18px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
         font-weight: 700;
         font-size: 1.08rem;
         letter-spacing: 0.02em;
-        filter: blur(0px); /* For extra glass effect with backdrop below */
+        filter: blur(0px);
+        /* For extra glass effect with backdrop below */
         backdrop-filter: blur(2px) saturate(170%) contrast(1.1);
-        border: 1.5px solid rgba(55,145,220,0.17);
+        border: 1.5px solid rgba(55, 145, 220, 0.17);
     }
 
     .visitor-label-icon {
-        background: linear-gradient(135deg,#1a91da 60%, #093352 110%);
+        background: linear-gradient(135deg, #1a91da 60%, #093352 110%);
         border-radius: 50%;
         color: #fff;
         font-size: 1.25em;
         width: 32px;
         height: 32px;
-        box-shadow: 0 1px 7px rgba(20,104,182,0.18);
+        box-shadow: 0 1px 7px rgba(20, 104, 182, 0.18);
         justify-content: center;
         align-items: center;
     }
@@ -183,30 +194,43 @@
         min-width: 108px;
         font-size: 1.23rem;
         font-weight: 700;
-        box-shadow: 0 2px 15px rgba(29, 155,209,0.11);
-        border:1.5px solid #36b9fe99;
+        box-shadow: 0 2px 15px rgba(29, 155, 209, 0.11);
+        border: 1.5px solid #36b9fe99;
         letter-spacing: 0.22em;
         text-shadow: 0 1px 5px #141c2a66;
         display: inline-block;
         margin-left: 6px;
-        filter: blur(0px); /* For extra glass feel */
+        filter: blur(0px);
+        /* For extra glass feel */
         transition: background 0.2s;
     }
 
     .visitor-counter-modern-glass:hover {
-        background: linear-gradient(90deg,#2ac6ff 20%, #1a91da 100%);
+        background: linear-gradient(90deg, #2ac6ff 20%, #1a91da 100%);
         color: #fffdcc;
     }
 
-    @media (max-width: 575px){
-        .footer-visitor-widget { flex-direction:column; align-items:flex-start;}
-        .visitor-counter-modern-glass{padding: 6px 12px; font-size: 1.05rem;min-width:77px;}
-        .visitor-label-box{font-size:.98rem;}
+    @media (max-width: 575px) {
+        .footer-visitor-widget {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .visitor-counter-modern-glass {
+            padding: 6px 12px;
+            font-size: 1.05rem;
+            min-width: 77px;
+        }
+
+        .visitor-label-box {
+            font-size: .98rem;
+        }
     }
+
     .footer-map iframe {
-        border:0;
-        width:100%;
-        min-height:90px;
+        border: 0;
+        width: 100%;
+        min-height: 90px;
         border-radius: 12px;
     }
 
@@ -216,14 +240,33 @@
             font-size: .98rem;
         }
     }
+
     @media (max-width: 768px) {
-        .footer-logo { width: 36px; }
-        .footer-section { font-size: .97rem; }
+        .footer-logo {
+            width: 36px;
+        }
+
+        .footer-section {
+            font-size: .97rem;
+        }
     }
+
     @media (max-width: 575px) {
-        .footer-title { font-size:.98rem;}
-        .footer-logo { width:31px;}
-        .footer-links a { font-size:.97rem;}
-        .visitor-counter-modern { padding: 4px 9px; font-size: 1.08rem;}
+        .footer-title {
+            font-size: .98rem;
+        }
+
+        .footer-logo {
+            width: 31px;
+        }
+
+        .footer-links a {
+            font-size: .97rem;
+        }
+
+        .visitor-counter-modern {
+            padding: 4px 9px;
+            font-size: 1.08rem;
+        }
     }
 </style>

@@ -35,21 +35,21 @@
         Projects.<br><br>
         <strong> Organization :</strong>
         Organization is considered as the success measure of the College. In addition to the
-        cells and committees constituted for overall functioning, Pub Kamrup College at present
+        cells and committees constituted for overall functioning, Demo College at present
         has the following organization, associations and forums-<br>
         A) Internal Quality Assurance Cell (IQAC) <br> B) National Service Scheme (NSS) <br> C) Rover & Ranger <br>
         D) Associations, Forums and Centres
         <br><br>
         <strong>Financial Assistance:</strong>
         <br>
-        <strong>Poor Aid Fund :</strong> Pub Kamrup College Poor Aid Fund provides financial assistance to the
+        <strong>Poor Aid Fund :</strong> Demo College Poor Aid Fund provides financial assistance to the
         students belonging to economically backward families. Every student has to contribute Rs. 10/- only to this
         fund at the time of admission. To avail this assistance, students are required to apply to the Treasurer of
-        the Pub Kamrup College Students’ Union when notified.
+        the Demo College Students’ Union when notified.
         <br><br>
         <strong>Green Diary:</strong><br>
         (A Diary on Environment related activities to be maintained compulsorily by the
-        students of Pub Kamrup College)<br>
+        students of Demo College)<br>
         Environmental study is offered in the college as an integral subject of the
         university curriculum. What the College innovatively adds is compulsory
         maintenance of a ‘Green Diary’ since 2012-13 by every student under which each

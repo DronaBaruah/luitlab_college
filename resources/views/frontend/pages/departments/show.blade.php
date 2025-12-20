@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', $department . ' | Pub Kamrup College')
+@section('title', $department . ' | Demo College')
 
 @section('content')
 
@@ -24,8 +24,8 @@
             <div class="card">
                 <div class="card-body">
                     <p class="card-text">
-                        The {{ $department }} Department is committed to providing quality education and fostering academic excellence. 
-                        Our dedicated faculty members bring expertise and passion to the classroom, ensuring students receive comprehensive 
+                        The {{ $department }} Department is committed to providing quality education and fostering academic excellence.
+                        Our dedicated faculty members bring expertise and passion to the classroom, ensuring students receive comprehensive
                         education in all aspects of the discipline.
                     </p>
                     <hr>
@@ -45,10 +45,10 @@
     <div class="row">
         <div class="col-md-12">
             <h3 class="mb-4">Faculty Members</h3>
-            
+
             <div class="row" id="facultyContainer">
                 <!-- Faculty cards will be dynamically loaded here or added manually -->
-                
+
                 <!-- Example Faculty Card 1 -->
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card faculty-card shadow-sm h-100 hover-shadow" style="transition: all 0.3s ease;">
@@ -128,9 +128,9 @@
 <style>
     .faculty-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
     }
-    
+
     .faculty-card img {
         height: 250px;
         object-fit: cover;

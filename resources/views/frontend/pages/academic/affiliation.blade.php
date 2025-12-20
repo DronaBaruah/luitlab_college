@@ -29,10 +29,10 @@
             <td><a href="upload/affiliation/Programme (Arts) affiliation from GU.pdf" target="_blank"><i style="color:red;font-size:37px;" class="fas fa-file-pdf"></i></a></td>
         </tr>
         <tr>
-            <td>Pub Kamrup College Provincialization Certificate</td>
+            <td>Demo College Provincialization Certificate</td>
 
             <td>2024-11-30</td>
-            <td><a href="upload/affiliation/Pub Kamrup College Provincialization Certificate.pdf" target="_blank"><i style="color:red;font-size:37px;" class="fas fa-file-pdf"></i></a></td>
+            <td><a href="upload/affiliation/Demo College Provincialization Certificate.pdf" target="_blank"><i style="color:red;font-size:37px;" class="fas fa-file-pdf"></i></a></td>
         </tr>
         <tr>
             <td>Integrated B.Ed</td>

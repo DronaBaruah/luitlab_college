@@ -1,53 +1,53 @@
 @extends('frontend.layouts.app')
 
-@section('title', 'Departments | Pub Kamrup College')
+@section('title', 'Departments | Demo College')
 
 @section('content')
 
-    <br>
+<br>
 
-    <div class="container">
-        <h3 style="font-family:'Times New Roman', Times, serif;border-bottom: 1px solid sienna;">All Departments</h3>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
-                <a href="{{ route('department.show', 'assamese') }}" style="text-decoration: none;">
-                    <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
-                        <div class="card-body" style="padding: 20px">
-                            <center><span style="margin:5px; text-decoration:none; color:white;">Assamese</span></center>
-                        </div>
+<div class="container">
+    <h3 style="font-family:'Times New Roman', Times, serif;border-bottom: 1px solid sienna;">All Departments</h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
+            <a href="{{ route('department.show', 'assamese') }}" style="text-decoration: none;">
+                <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
+                    <div class="card-body" style="padding: 20px">
+                        <center><span style="margin:5px; text-decoration:none; color:white;">Assamese</span></center>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
-                <a href="{{ route('department.show', 'botany') }}" style="text-decoration: none;">
-                    <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
-                        <div class="card-body" style="padding: 20px">
-                            <center><span style="margin:5px; text-decoration:none; color:white;">Botany</span></center>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
+            <a href="{{ route('department.show', 'botany') }}" style="text-decoration: none;">
+                <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
+                    <div class="card-body" style="padding: 20px">
+                        <center><span style="margin:5px; text-decoration:none; color:white;">Botany</span></center>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
-                <a href="{{ route('department.show', 'biophysics') }}" style="text-decoration: none;">
-                    <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
-                        <div class="card-body" style="padding: 20px">
-                            <center><span style="margin:5px; text-decoration:none; color:white;">Bio-Physics</span></center>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
+            <a href="{{ route('department.show', 'biophysics') }}" style="text-decoration: none;">
+                <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
+                    <div class="card-body" style="padding: 20px">
+                        <center><span style="margin:5px; text-decoration:none; color:white;">Bio-Physics</span></center>
                     </div>
-                </a>
-            </div>
-            <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
-                <a href="{{ route('department.show', 'bba') }}" style="text-decoration: none;">
-                    <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
-                        <div class="card-body" style="padding: 20px">
-                            <center><span style="margin:5px; text-decoration:none; color:white;">BBA</span></center>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
+            <a href="{{ route('department.show', 'bba') }}" style="text-decoration: none;">
+                <div class="card online w3-card" style="background:#164bb4;height: 80px; cursor: pointer;">
+                    <div class="card-body" style="padding: 20px">
+                        <center><span style="margin:5px; text-decoration:none; color:white;">BBA</span></center>
                     </div>
-                </a>
-            </div>
-            {{-- <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
+                </div>
+            </a>
+        </div>
+        {{-- <div class="col-md-12 col-lg-3 col-sm-12" style="margin-bottom:20px">
                 <div class="card online w3-card" style="background:#164bb4;height: 80px">
                     <form id="f5" method="post" name="redirect" action="Academic-Departments.php">
                         <input type="hidden" name="encRequest"
@@ -287,8 +287,8 @@
 
 
 
-        </div>
     </div>
-    <br><br>
+</div>
+<br><br>
 
 @endsection

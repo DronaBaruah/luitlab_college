@@ -1,43 +1,40 @@
 @extends('frontend.layouts.app')
 
-@section('title', 'Teaching Staff | Pub Kamrup College')
+@section('title', 'Teaching Staff | Demo College')
 
 @section('content')
 
- <br><br>
-    <div class="container">
-         <h4
-                           style="color:#ee240f;border-bottom:solid 3px teal;font-size: 1.5rem;text-transform:uppercase;font-family:'Times New Roman', Times, serif;text-align:center;">
-                          Non Teaching Staff</h4>
-        
-<div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
-                            <div class=" "><img src="upload/profile/user.jpg" width="200px" height=
-                                "200px" class="rounded-circle"></div>
-                            <div>
-                                <h4 classs="py-2">NALINI KANTA DEKA</h4>
-                                <h5 classs="py-2">Designation:&nbsp;LDA</h5>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
-                            <div class=" "><img src="upload/profile/user.jpg" width="200px" height=
-                                "200px" class="rounded-circle"></div>
-                            <div>
-                                <h4 classs="py-2">KRISHNA KANTA BORO</h4>
-                                <h5 classs="py-2">Designation:&nbsp;LDA</h5>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
-                            <div class=" "><img src="upload/profile/user.jpg" width="200px" height=
-                                "200px" class="rounded-circle"></div>
-                            <div>
-                                <h4 classs="py-2">TILAK CH. KAKATI</h4>
-                                <h5 classs="py-2">Designation:&nbsp;Laboratory Bearer</h5>
-                            </div>
-                        </div>
-                    {{-- </div><div class="row">
+<br><br>
+<div class="container">
+    <h4
+        style="color:#ee240f;border-bottom:solid 3px teal;font-size: 1.5rem;text-transform:uppercase;font-family:'Times New Roman', Times, serif;text-align:center;">
+        Non Teaching Staff</h4>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
+            <div class=" "><img src="upload/profile/user.jpg" width="200px" height="200px" class="rounded-circle"></div>
+            <div>
+                <h4 classs="py-2">NALINI KANTA DEKA</h4>
+                <h5 classs="py-2">Designation:&nbsp;LDA</h5>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
+            <div class=" "><img src="upload/profile/user.jpg" width="200px" height="200px" class="rounded-circle"></div>
+            <div>
+                <h4 classs="py-2">KRISHNA KANTA BORO</h4>
+                <h5 classs="py-2">Designation:&nbsp;LDA</h5>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
+            <div class=" "><img src="upload/profile/user.jpg" width="200px" height="200px" class="rounded-circle"></div>
+            <div>
+                <h4 classs="py-2">TILAK CH. KAKATI</h4>
+                <h5 classs="py-2">Designation:&nbsp;Laboratory Bearer</h5>
+            </div>
+        </div>
+        {{-- </div><div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12 text-center py-3">
                             <div class=" "><img src="online/attendence/upload/profile/1672978070Jogeswar.jpeg" width="200px" height=
                                 "200px" class="rounded-circle"></div>
@@ -264,7 +261,7 @@
                             </div>
                         </div>
                     </div>        --}}
-                     <br><br>
+        <br><br>
     </div>
 
-@endsection
+    @endsection
