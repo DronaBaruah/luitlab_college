@@ -8,7 +8,7 @@
                 <div class="announcement-content">
                     <span class="announcement-text">
                         Admission going on for 2 years ADMIT (Add on Course) under Gauhati University for 2025-26 |
-                        Admit Card for PKC-PGET 2025 Exam is Live
+                        Admit Card for PGET 2025 Exam is Live
                     </span>
                 </div>
             </div>

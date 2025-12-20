@@ -6,7 +6,8 @@
                 <div class="footer-brand mb-4">
                     <h5 class="fw-bold mb-2 text-white">Demo College</h5>
                     <p class="footer-link-light mb-1"><i class="bi bi-geo-alt-fill me-2"></i>-----, Kamrup, Assam 781381</p>
-                    <a href="mailto:principal@pubkamrupcollege.org" class="footer-link-light d-block mb-1"><i class="bi bi-envelope-fill me-2"></i>principal@pubkamrupcollege.org</a>
+                    <a href="mailto:principal@pubkamrupcollege.org" class="footer-link-light d-block mb-1">
+                        <i class="bi bi-envelope-fill me-2"></i>principal@democollege.org</a>
                     <p class="footer-link-light mb-1"><i class="bi bi-telephone-fill me-2"></i>+91 XXXXXXXXXX</p>
                     <p class="footer-link-light mb-2"><i class="bi bi-telephone-fill me-2"></i>+91 XXXXXXXXXX</p>
                 </div>
