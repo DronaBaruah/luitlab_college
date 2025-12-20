@@ -15,7 +15,7 @@
                     <div class="news-date-badge">
                         <span class="badge bg-primary">2025-2026</span>
                         <span class="badge-new ms-2">
-                            <img src="new-icon.gif" alt="New" style="height: 20px;">
+                            <img src="https://www.pubkamrupcollege.co.in/images/new.png" alt="New" style="height: 20px;">
                         </span>
                     </div>
                     <p class="news-text">
@@ -30,7 +30,7 @@
                     <div class="news-date-badge">
                         <span class="badge bg-primary">2025-2026</span>
                         <span class="badge-new ms-2">
-                            <img src="new-icon.gif" alt="New" style="height: 20px;">
+                            <img src="https://www.pubkamrupcollege.co.in/images/new.png" alt="New" style="height: 20px;">
                         </span>
                     </div>
                     <p class="news-text">

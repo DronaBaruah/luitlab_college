@@ -7,7 +7,7 @@
                 <a href="#nirf" class="icon-card-link">
                     <div class="icon-card text-center">
                         <div class="icon-wrapper">
-                            <img src="nirf-logo.png" alt="NIRF" class="icon-img">
+                            <img src="https://www.pubkamrupcollege.co.in/images/nirf.png" alt="NIRF" class="icon-img">
                         </div>
                         <h5 class="icon-title">NIRF</h5>
                     </div>
@@ -19,7 +19,7 @@
                 <a href="#nss" class="icon-card-link">
                     <div class="icon-card text-center">
                         <div class="icon-wrapper">
-                            <img src="nss-logo.png" alt="NSS" class="icon-img">
+                            <img src="https://www.pubkamrupcollege.co.in/images/nss.png" alt="NSS" class="icon-img">
                         </div>
                         <h5 class="icon-title">NSS</h5>
                     </div>
@@ -31,7 +31,7 @@
                 <a href="#lms" class="icon-card-link">
                     <div class="icon-card text-center">
                         <div class="icon-wrapper">
-                            <img src="lms-logo.png" alt="Learning Management System" class="icon-img">
+                            <img src="https://luitlab.com/_next/image?url=%2FLuitlab_logo_final.png&w=128&q=75" alt="Learning Management System" class="icon-img">
                         </div>
                         <h5 class="icon-title">Learning Management System</h5>
                     </div>
@@ -43,7 +43,7 @@
                 <a href="#quill" class="icon-card-link">
                     <div class="icon-card text-center">
                         <div class="icon-wrapper">
-                            <img src="quill-logo.png" alt="Quill: the mighty pen" class="icon-img">
+                            <img src="https://luitlab.com/_next/image?url=%2FLuitlab_logo_final.png&w=128&q=75" alt="Quill: the mighty pen" class="icon-img">
                         </div>
                         <h5 class="icon-title">Quill: the mighty pen</h5>
                     </div>
