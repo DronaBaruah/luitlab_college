@@ -1,12 +1,13 @@
 @extends('frontend.layouts.app')
 
-@section('title', 'Examinations | Pub Kamrup College')
+@section('title', 'Examinations | Demo College')
 
 @section('content')
 
 <br>
-    <div class="container">
-    <h2>Examination</h2><hr>
+<div class="container">
+    <h2>Examination</h2>
+    <hr>
     <h5 style="line-height:2.2;">
         All the semester exam in the Gauhati University are conducted as per the ministry rules and regulations
         of GU and ASTU.<br>

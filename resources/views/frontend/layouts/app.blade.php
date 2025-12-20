@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Pub Kamrup College')</title>
+    <title>@yield('title', 'Demo College')</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -43,12 +44,25 @@
         .main-header {
             background: white;
             padding: 20px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        .college-logo { max-width: 100%; height: auto; }
-        .azadi-logo { max-width: 200px; height: auto; }
-        .naac-badge { color: #dc3545; font-weight: bold; font-size: 14px; margin-top: 5px; }
+        .college-logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .azadi-logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .naac-badge {
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 5px;
+        }
 
         .action-buttons .btn-custom {
             padding: 15px 25px;
@@ -66,12 +80,30 @@
             transform: translateY(-3px);
         }
 
-        .btn-certificate { background-color: var(--accent-red); color: white; }
-        .btn-portal { background-color: #17a2b8; color: white; }
-        .btn-employer { background-color: #ffc107; color: #333; }
-        .btn-itep { background-color: var(--accent-green); color: white; }
+        .btn-certificate {
+            background-color: var(--accent-red);
+            color: white;
+        }
 
-        .main-nav { background-color: var(--secondary-blue); box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+        .btn-portal {
+            background-color: #17a2b8;
+            color: white;
+        }
+
+        .btn-employer {
+            background-color: #ffc107;
+            color: #333;
+        }
+
+        .btn-itep {
+            background-color: var(--accent-green);
+            color: white;
+        }
+
+        .main-nav {
+            background-color: var(--secondary-blue);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
 
         .main-nav .navbar-nav .nav-link {
             color: white !important;
@@ -81,7 +113,7 @@
         }
 
         .main-nav .navbar-nav .nav-link:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255, 255, 255, 0.1);
         }
 
         .main-nav .dropdown-menu {
@@ -95,7 +127,7 @@
         }
 
         .main-nav .dropdown-item:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255, 255, 255, 0.1);
         }
 
         .announcement-bar {
@@ -104,7 +136,11 @@
             color: white;
         }
 
-        .announcement-content { overflow: hidden; white-space: nowrap; }
+        .announcement-content {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
         .announcement-text {
             display: inline-block;
             padding-left: 100%;
@@ -112,20 +148,45 @@
         }
 
         @keyframes scroll-left {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-100%); }
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
         }
 
         @media (max-width: 768px) {
-            .action-buttons .btn-custom { padding: 10px 15px; font-size: 12px; margin: 5px; }
-            .azadi-logo { max-width: 150px; margin-top: 15px; }
-            .top-bar { font-size: 11px; }
-            .top-bar a { margin: 0 5px; }
-            .main-nav .navbar-nav .nav-link { padding: 10px 15px; }
+            .action-buttons .btn-custom {
+                padding: 10px 15px;
+                font-size: 12px;
+                margin: 5px;
+            }
+
+            .azadi-logo {
+                max-width: 150px;
+                margin-top: 15px;
+            }
+
+            .top-bar {
+                font-size: 11px;
+            }
+
+            .top-bar a {
+                margin: 0 5px;
+            }
+
+            .main-nav .navbar-nav .nav-link {
+                padding: 10px 15px;
+            }
         }
 
         @media (max-width: 576px) {
-            .action-buttons .btn-custom { width: 100%; margin: 5px 0; }
+            .action-buttons .btn-custom {
+                width: 100%;
+                margin: 5px 0;
+            }
         }
     </style>
 
@@ -133,17 +194,18 @@
 </head>
 
 <body>
-@include('frontend.partials.topbar')
-@include('frontend.partials.header')
-@include('frontend.partials.navbar')
-@include('frontend.partials.announcement')
+    @include('frontend.partials.topbar')
+    @include('frontend.partials.header')
+    @include('frontend.partials.navbar')
+    @include('frontend.partials.announcement')
 
-<main>
-    @yield('content')
-</main>
-@include('frontend.partials.footer')
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-@stack('scripts')
+    <main>
+        @yield('content')
+    </main>
+    @include('frontend.partials.footer')
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @stack('scripts')
 </body>
+
 </html>

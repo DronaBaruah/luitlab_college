@@ -11,7 +11,7 @@
             <div class="card-content-custom about-content">
                 <div class="about-text-overlay">
                     <p class="about-description">
-                        Pub Kamrup College, located at Baihata Chariali, Kamrup – Assam is an institute of general higher education.
+                        Demo College, located at ...., Kamrup – Assam is an institute of general higher education.
                         This College was established in 1972 as a result of decades of the popular desire and relentless effort for
                         such an institute. The College fraternity as well as the locality at large is thankful to the Government of
                         Assam and their able guidance and leadership in the act of initiation of the College. Started with arts stream,

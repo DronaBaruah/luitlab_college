@@ -3,10 +3,10 @@
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-5 col-12 text-center text-md-start mb-3 mb-md-0">
                 <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                    <img src="https://www.pubkamrupcollege.co.in/images/pub2.png" alt="Pub Kamrup College Logo" class="college-logo" style="max-width: 100px;">
+                    <img src="https://www.pubkamrupcollege.co.in/images/pub2.png" alt="Demo College Logo" class="college-logo" style="max-width: 100px;">
                     <div class="ms-3">
-                        <h1 class="mb-0" style="font-size: 24px; color: var(--accent-red);">পূব কামৰূপ মহাবিদ্যালয়</h1>
-                        <h2 class="mb-0" style="font-size: 20px; color: var(--primary-blue);">PUB KAMRUP COLLEGE</h2>
+                        <h1 class="mb-0" style="font-size: 24px; color: var(--accent-red);"> মহাবিদ্যালয়</h1>
+                        <h2 class="mb-0" style="font-size: 20px; color: var(--primary-blue);">Demo College</h2>
                         <p class="mb-0" style="font-size: 13px; color: #666;">9001:2015 INSTITUTION</p>
                         <p class="mb-0" style="font-size: 12px;"><strong>Affiliated to Gauhati University, Assam</strong></p>
                         <p class="naac-badge mb-0">NAAC Accredited B++ (CGPA 2.81) in PG and Above category</p>
